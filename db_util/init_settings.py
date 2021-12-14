@@ -13,6 +13,7 @@ ENVIRONMENT_VARIABLE = 'SETTINGS_MODULE'
 class ConfigureError(Exception):
     pass
 
+
 class LazySettings(LazyObject):
 
     def _setup(self, name=None):
